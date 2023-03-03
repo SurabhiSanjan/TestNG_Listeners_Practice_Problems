@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="12" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-04T00:44:22 IST" name="All Test Suite" finished-at="2023-03-04T00:44:59 IST" duration-ms="37305">
+    <groups>
+    </groups>
+    <test started-at="2023-03-04T00:44:22 IST" name="ChromeBrowser" finished-at="2023-03-04T00:44:32 IST" duration-ms="10401">
+      <class name="com.bridgelabz.FacebookLogin">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bridgelabz.FacebookLogin@53976f5c]" started-at="2023-03-04T00:44:22 IST" name="setup" finished-at="2023-03-04T00:44:24 IST" duration-ms="2630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.bridgelabz.FacebookLogin@53976f5c]" started-at="2023-03-04T00:44:24 IST" name="login" finished-at="2023-03-04T00:44:27 IST" duration-ms="2980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.FacebookLogin@53976f5c]" started-at="2023-03-04T00:44:32 IST" name="tearDown" finished-at="2023-03-04T00:44:32 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.FacebookLogin -->
+    </test> <!-- ChromeBrowser -->
+    <test started-at="2023-03-04T00:44:32 IST" name="FirefoxBrowser" finished-at="2023-03-04T00:44:43 IST" duration-ms="10608">
+      <class name="com.bridgelabz.LinkedinLogin">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bridgelabz.LinkedinLogin@3fb1549b]" started-at="2023-03-04T00:44:32 IST" name="setup" finished-at="2023-03-04T00:44:35 IST" duration-ms="2546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.bridgelabz.LinkedinLogin@3fb1549b]" started-at="2023-03-04T00:44:35 IST" name="login" description="To login into linked with valid user credentials" finished-at="2023-03-04T00:44:42 IST" duration-ms="6976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.LinkedinLogin@3fb1549b]" started-at="2023-03-04T00:44:42 IST" name="tearDown" finished-at="2023-03-04T00:44:43 IST" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.LinkedinLogin -->
+    </test> <!-- FirefoxBrowser -->
+    <test started-at="2023-03-04T00:44:43 IST" name="Chrome" finished-at="2023-03-04T00:44:58 IST" duration-ms="15461">
+      <class name="com.bridgelabz.Webinar">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bridgelabz.Webinar@10d307f1]" started-at="2023-03-04T00:44:43 IST" name="setup" finished-at="2023-03-04T00:44:43 IST" duration-ms="747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="webinarAutoFill(java.lang.String,java.lang.String)[pri:0, instance:com.bridgelabz.Webinar@10d307f1]" started-at="2023-03-04T00:44:43 IST" name="webinarAutoFill" description="To use dataprovider for autofilling multiple data" data-provider="DataProvider" finished-at="2023-03-04T00:44:48 IST" duration-ms="4100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8544370256]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webinarAutoFill -->
+        <test-method signature="webinarAutoFill(java.lang.String,java.lang.String)[pri:0, instance:com.bridgelabz.Webinar@10d307f1]" started-at="2023-03-04T00:44:48 IST" name="webinarAutoFill" description="To use dataprovider for autofilling multiple data" data-provider="DataProvider" finished-at="2023-03-04T00:44:50 IST" duration-ms="2232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7586952365]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fgj@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webinarAutoFill -->
+        <test-method signature="webinarAutoFill(java.lang.String,java.lang.String)[pri:0, instance:com.bridgelabz.Webinar@10d307f1]" started-at="2023-03-04T00:44:51 IST" name="webinarAutoFill" description="To use dataprovider for autofilling multiple data" data-provider="DataProvider" finished-at="2023-03-04T00:44:52 IST" duration-ms="1848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9865362569]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hkj@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webinarAutoFill -->
+        <test-method signature="email(java.lang.String)[pri:0, instance:com.bridgelabz.Webinar@10d307f1]" started-at="2023-03-04T00:44:53 IST" name="email" data-provider="DataProvider" finished-at="2023-03-04T00:44:54 IST" duration-ms="1330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email -->
+        <test-method signature="email(java.lang.String)[pri:0, instance:com.bridgelabz.Webinar@10d307f1]" started-at="2023-03-04T00:44:55 IST" name="email" data-provider="DataProvider" finished-at="2023-03-04T00:44:56 IST" duration-ms="1262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nmjf@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email -->
+        <test-method signature="email(java.lang.String)[pri:0, instance:com.bridgelabz.Webinar@10d307f1]" started-at="2023-03-04T00:44:56 IST" name="email" data-provider="DataProvider" finished-at="2023-03-04T00:44:58 IST" duration-ms="1293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hghhg@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.Webinar@10d307f1]" started-at="2023-03-04T00:44:58 IST" name="tearDown" finished-at="2023-03-04T00:44:58 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.Webinar -->
+    </test> <!-- Chrome -->
+    <test started-at="2023-03-04T00:44:58 IST" name="null" finished-at="2023-03-04T00:44:59 IST" duration-ms="787">
+      <class name="com.bridgelabz.TestFailure">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bridgelabz.TestFailure@3d6f0054]" started-at="2023-03-04T00:44:58 IST" name="setup" finished-at="2023-03-04T00:44:59 IST" duration-ms="698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPassed()[pri:0, instance:com.bridgelabz.TestFailure@3d6f0054]" started-at="2023-03-04T00:44:59 IST" name="testPassed" finished-at="2023-03-04T00:44:59 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPassed -->
+        <test-method signature="testFailed()[pri:0, instance:com.bridgelabz.TestFailure@3d6f0054]" started-at="2023-03-04T00:44:59 IST" name="testFailed" finished-at="2023-03-04T00:44:59 IST" duration-ms="7" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.bridgelabz.TestFailure.testFailed(TestFailure.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.TestFailure@3d6f0054]" started-at="2023-03-04T00:44:59 IST" name="tearDown" finished-at="2023-03-04T00:44:59 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.TestFailure -->
+    </test> <!-- null -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

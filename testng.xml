@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <!--<test verbose="2" preserve-order="true" name="C:/Users/atulk/IdeaProjects/TestNG_2.0"> -->
+    <test name="ChromeBrowser">
+        <parameter name="browser" value="Chrome"></parameter>
+        <classes>
+            <class name="com.bridgelabz.FacebookLogin">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="FirefoxBrowser">
+        <parameter name="browser" value="Firefox"></parameter>
+        <classes>
+            <class name="com.bridgelabz.LinkedinLogin">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Chrome">
+        <parameter name="browser" value="Chrome"></parameter>
+        <classes>
+            <class name="com.bridgelabz.Webinar">
+                <methods>
+                    <include name="webinarAutoFill"/>
+                    <include name="email"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="null">
+          <classes>
+            <class name="com.bridgelabz.TestFailure">
+                <methods>
+                    <include name="testPassed"/>
+                    <include name="testFailed"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
